@@ -12,6 +12,11 @@ function App() {
 
   const startTimer = () => {
     const countDown = new Date ('Jully 4, 2022').getTime();
+
+    interval = setInterval(() => {
+      const nowDate = new Date().getTime();
+      const difference = countDown - nowDate;
+    })
   }
   return (
     <div className="App">
