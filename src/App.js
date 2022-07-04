@@ -9,7 +9,10 @@ function App() {
   const [setSeconds, setSecondsState] = useState();
 
   let interval ;
-  
+
+  const startTimer = () => {
+    
+  }
   return (
     <div className="App">
      <Clock setDays={setDays} setHours={setHours} setMinutes={setMinutes} setSeconds={setSeconds} />
