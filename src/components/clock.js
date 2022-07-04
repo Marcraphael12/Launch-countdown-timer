@@ -30,4 +30,11 @@ const Clock = ({setDays, setHours, setMinutes, setSeconds}) => {
 	)
 }
 
+Clock.defaultProps = {
+	setDays: 0,
+	setHours: 0,
+	setMinutes: 0,
+	setSeconds: 0
+}
+
 export default Clock;
