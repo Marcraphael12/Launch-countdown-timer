@@ -25,7 +25,20 @@ function App() {
       const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
 
       const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-    })
+
+      // Now we need a condition to check how long the inteval should run
+      // we clear the interval if the difference is less than 0
+      if (difference < 0) {
+        clearInterval(interval);
+      } else {
+
+        // update the timer constantly
+        setDaysState(days);
+        setHoursState(hours);
+        setMinutesState(minutes);
+        setSecondsState(seconds);
+      }
+   })
   }
   return (
     <div className="App">
