@@ -16,6 +16,15 @@ function App() {
     interval = setInterval(() => {
       const nowDate = new Date().getTime();
       const difference = countDown - nowDate;
+
+      // Now we need to get the days, hours, minutes and seconds, by dividing the difference by 1000, 60, 60 and 24 respectively.
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
     })
   }
   return (
