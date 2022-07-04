@@ -10,16 +10,22 @@ const Clock = ({setDays, setHours, setMinutes, setSeconds}) => {
 						<h3>Days</h3>
 					</div>
 
+					<span>:</span>
+
 					<div className="hours">
 						<p>{setHours}</p>
 						<h3>Hours</h3>
 					</div>
+
+					<span>:</span>
 
 					<div className="minutes">
 						<p>{setMinutes}</p>
 						<h3>Minutes</h3>
 					</div>
 
+					<span>:</span>
+					
 					<div className="seconds">
 						<p>{setSeconds}</p>
 						<h3>Seconds</h3>
