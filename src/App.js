@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-     <Clock />
+     <Clock setDays={setDays} setHours={setHours} setMinutes={setMinutes} setSeconds={setSeconds} />
     </div>
   );
 }
