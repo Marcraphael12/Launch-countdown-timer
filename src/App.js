@@ -38,8 +38,13 @@ function App() {
         setMinutesState(minutes);
         setSecondsState(seconds);
       }
-   })
+   });
   }
+
+  // now we need to load the timer when the page loads
+  useEffect(() => {
+    startTimer();
+  })
   return (
     <div className="App">
      <Clock setDays={setDays} setHours={setHours} setMinutes={setMinutes} setSeconds={setSeconds} />
