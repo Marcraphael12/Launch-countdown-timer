@@ -1,3 +1,4 @@
+import React, {useState}from 'react';
 import './App.scss';
 import Clock from './components/clock';
 
