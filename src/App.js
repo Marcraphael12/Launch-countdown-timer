@@ -1,9 +1,10 @@
 import './App.scss';
+import Clock from './components/clock';
 
 function App() {
   return (
     <div className="App">
-      Marc raphael
+     <Clock />
     </div>
   );
 }
