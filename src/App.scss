@@ -37,6 +37,12 @@ body {
       background-repeat: no-repeat;
       background-size: 200% 20%;
       background-position: bottom right;
+
+      .clock-container {
+        width: 90%;
+        max-width: 690px;
+        height: auto;
+      }
     }
   }
 }
