@@ -58,6 +58,14 @@ body {
           height: auto;
           display: flex;
           justify-content: space-between;
+
+          >div {
+            width: 23%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+          }
         }
       }
     }
