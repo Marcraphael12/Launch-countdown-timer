@@ -34,9 +34,9 @@ const Clock = ({setDays, setHours, setMinutes, setSeconds}) => {
 				</div>
 
 				<div className="socials">
-					<a href="#"> <img src={fb} alt='facebook'/></a>
-					<a href="#"> <img src={ps} alt="pinterest" /> </a>
-					<a href="#"> <img src={inst} alt="instagram" /> </a>
+					<a href="https//www.example.com"> <img src={fb} alt='facebook'/></a>
+					<a href="https//www.example.com"> <img src={ps} alt="pinterest" /> </a>
+					<a href="https//www.example.com"> <img src={inst} alt="instagram" /> </a>
 				</div>
 			</div>
 		</Fragment>
