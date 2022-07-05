@@ -3,7 +3,19 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: 'Red Hat Text', sans-serif;
 }
+
+// colors primary
+$Grayish-blue: hsl(237, 18%, 59%);
+$Soft-red: hsl(345, 95%, 68%);
+
+// Neutral
+
+$White: hsl(0, 0%, 100%);
+$Dark-desaturated-blue: hsl(236, 21%, 26%);
+$Very-dark-blue: hsl(235, 16%, 14%);
+$Very-dark-blue: hsl(234, 17%, 12%);
 
 body {
   width: 100%;
