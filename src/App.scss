@@ -83,10 +83,28 @@ body {
               font-size: 30px;
               font-weight: 700;
               display: flex;
-              justify-content: center;
+              justify-content: space-between;
               align-items: center;
               background: linear-gradient(180deg, rgba(44,44,68,1) 0%, rgba(50,54,78,1) 50%);
               border-radius: 10px;
+
+              &::before {
+                content: '';
+                width: 5%;
+                height: 7%;
+                background-color: $Very-dark-blue;
+                border-top-right-radius: 60%;
+                border-bottom-right-radius: 60%;
+              }
+
+              &::after {
+                content: '';
+                width: 5%;
+                height: 7%;
+                background-color: $Very-dark-blue;
+                border-top-left-radius: 50%;
+                border-bottom-left-radius: 50%;
+              }
             }
 
             >h3 {
