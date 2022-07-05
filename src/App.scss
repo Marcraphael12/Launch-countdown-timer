@@ -39,9 +39,10 @@ body {
       background-position: bottom right;
 
       .clock-container {
-        width: 90%;
+        width: 100%;
         max-width: 690px;
         height: auto;
+        padding: 20px;
 
         >h2 {
           width: 100%;
@@ -65,6 +66,23 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+
+            >p {
+              min-width: 75px;
+              width: 100%;
+              max-width: 145px;
+              min-height: 64px;
+              height: calc(100vw - 340px);
+              max-height: 135px;
+              color: $Soft-red;
+              font-size: 20px;
+              font-weight: 700;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: linear-gradient(0deg, #2c2c44ff 50%, #32364eff 100%);
+              border-radius: 10px;
+            }
           }
         }
       }
