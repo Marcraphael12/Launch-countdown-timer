@@ -42,6 +42,16 @@ body {
         width: 90%;
         max-width: 690px;
         height: auto;
+
+        >h2 {
+          width: 100%;
+          height: auto;
+          color: $White;
+          font-size: 25PX;
+          font-weight: 700;
+          text-align: center;
+          letter-spacing: 5px;
+        }
       }
     }
   }
