@@ -139,8 +139,15 @@ body {
               text-transform: uppercase;
               margin-top: 20px;
             }
+            &.seconds {
+              p {
+                backface-visibility: visible !important;
+                animation: flipInX 1s ease-in-out infinite;
+              }
+            }
           }
         }
+        
 
         .socials {
           width: 100%;
